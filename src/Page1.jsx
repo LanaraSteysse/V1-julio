@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; 
 
 
-function App() {
+function Page1() {
   const [text, setText] = useState('');
 
   const handleSubmit = (e) => {
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>Welcome to my app! Pagina 1</h1>
+      <h1>Welcome to my app!</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Enter some text:
@@ -25,8 +25,8 @@ function App() {
   );
   }
  
-   <Link to = "/Page2"> Page 2</Link>
+  
   
   
 
-export default App; 
+export default Page1; 

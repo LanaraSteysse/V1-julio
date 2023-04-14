@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-export { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 function Page2() {
   const [number, setNumber] = useState(0);
